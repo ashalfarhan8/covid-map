@@ -1,0 +1,14 @@
+.dashboard {
+  background-color: #1e1e1e;
+  justify-content: center;
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    text-align: center;
+    .items {
+      border: 1px solid grey;
+      padding: 24px 0;
+    }
+  }
+}
