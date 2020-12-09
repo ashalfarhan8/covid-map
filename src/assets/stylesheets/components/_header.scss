@@ -1,40 +1,21 @@
 header {
-
   width: 100%;
+  align-items: center;
   color: $white;
-  background-color: $gatsby-purple;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid grey;
 
   .container {
     display: flex;
-    justify-content: space-between;
-    height: 2.5em;
-    line-height: 2.5em;
-  }
-
-  ul,
-  li,
-  a {
-    display: flex;
+    justify-content: center;
     align-items: center;
-  }
-
-  ul {
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    color: lighten($gatsby-purple, 50);
-    text-decoration: none;
-    padding: 0 .5em;
+    height: 5vw;
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 40px;
     font-weight: bold;
-    margin: 0;
+    padding: 20px;
+    line-height: 30px;
   }
-
 }
