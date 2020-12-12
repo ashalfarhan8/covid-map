@@ -1,0 +1,60 @@
+.tracker-stats {
+  color: white;
+  background-color: #1e1e1e;
+  border-top: solid 1px white;
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.tracker-stat {
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5em;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+  color: #f2994a;
+
+  strong {
+    font-weight: normal;
+    color: $blue-grey-300;
+  }
+}
+
+.tracker-stat-primary {
+  margin: 0;
+
+  strong {
+    display: block;
+    font-size: 0.5em;
+  }
+}
+
+.tracker-stat-secondary {
+  font-size: 0.5em;
+  margin: 0.8em 0 0;
+
+  strong {
+    display: block;
+    font-size: 0.8em;
+    margin-left: 0.4em;
+  }
+}
+
+.tracker-last-updated {
+  color: white;
+  background-color: #1e1e1e;
+  padding: 0.8em 0;
+
+  p {
+    color: $blue-grey-300;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0;
+  }
+}

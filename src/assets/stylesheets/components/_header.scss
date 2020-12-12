@@ -13,9 +13,18 @@ header {
   }
 
   p {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: bold;
     padding: 20px;
     line-height: 30px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 33vw;
+      background-color: #f2994a;
+      width: 32px;
+      height: 32px;
+      border-radius: 100%;
+    }
   }
 }
