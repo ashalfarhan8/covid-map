@@ -72,13 +72,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged --noverify"
     }
   },
   "lint-staged": {
     "**/*.js": [
-      "yarn format",
-      "yarn lint"
+      "npm run format",
+      "npm run lint"
     ]
   },
   "homepage": "https://gatsby-starter-leaflet.netlify.app/",
