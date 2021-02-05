@@ -1,0 +1,26 @@
+footer {
+  background-color: #1e1e1e;
+  color: $white;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+
+    p {
+      font-size: 24px;
+      padding: 20px;
+      line-height: 32px;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

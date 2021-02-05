@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 
 const API_HOST = `https://disease.sh/v3/covid-19`;
@@ -23,7 +23,7 @@ const defaultState = {
 const useTracker = ({ api = "all" }) => {
   const [tracker = {}, updateTracker] = useState(defaultState);
 
-  async function fetchTracker() {
+  const fetchTracker = useCallback(async () => {
     let route = ENDPOINTS.find(({ id } = {}) => id === api);
 
     if (!route) {
@@ -60,11 +60,11 @@ const useTracker = ({ api = "all" }) => {
         data,
       };
     });
-  }
+  }, [api]);
 
   useEffect(() => {
     fetchTracker();
-  }, [api]);
+  }, [api, fetchTracker]);
 
   return {
     fetchTracker,
