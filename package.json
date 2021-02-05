@@ -72,7 +72,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged --noverify"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
