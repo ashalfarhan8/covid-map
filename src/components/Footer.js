@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <p>
           &copy; {new Date().getFullYear()},{" "}
-          <a href={authorUrl}>{authorName}</a>
+          <a href={authorUrl} target="_blank" >{authorName}</a>
         </p>
       </Container>
     </footer>
