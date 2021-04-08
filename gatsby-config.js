@@ -6,7 +6,7 @@ const siteMetadata = {
   companyName: title,
   companyUrl: repository.url,
   authorName: "Ashal Farhan",
-  authorUrl: "htttps://github.com/ashalfarhan",
+  authorUrl: 'htttps://github.com/ashalfarhan',
   siteUrl: homepage,
   siteDescription: description,
 };
