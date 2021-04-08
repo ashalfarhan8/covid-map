@@ -3,11 +3,6 @@
   "title": "Gatsby Starter Leaflet",
   "description": "A Gatsby starter with Leafet!",
   "version": "0.2.4",
-  "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
-  },
   "dependencies": {
     "gatsby": "^2.25.3",
     "gatsby-plugin-manifest": "^2.5.2",
@@ -81,12 +76,5 @@
       "npm run lint"
     ]
   },
-  "homepage": "https://gatsby-starter-leaflet.netlify.app/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet/issues"
-  }
+  "homepage": "https://gatsby-starter-leaflet.netlify.app/"
 }
