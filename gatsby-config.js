@@ -4,7 +4,6 @@ const { title, description, homepage } = config;
 
 const siteMetadata = {
   companyName: title,
-  companyUrl: repository.url,
   authorName: "Ashal Farhan",
   authorUrl: "https://github.com/ashalfarhan",
   siteUrl: homepage,
