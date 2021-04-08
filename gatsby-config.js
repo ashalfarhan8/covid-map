@@ -1,6 +1,6 @@
 const config = require("./package.json");
 
-const { title, description, author, repository, homepage } = config;
+const { title, description,  repository, homepage } = config;
 
 const siteMetadata = {
   companyName: title,
